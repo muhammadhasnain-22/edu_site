@@ -313,7 +313,7 @@ main .whywe .right p {
 
 
 main .whywe .right button {
-    width: 14%;
+    width: 15%;
     border-radius: 1.5rem;
     outline: none;
     border: none;
@@ -330,4 +330,43 @@ main .whywe .right button:hover {
 main .whywe .right button:active {
     transform: scale(0.95);
     color: rgb(40, 40, 40);
+}
+
+
+/* this is about courses  */
+
+main .courses {
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5rem;
+    row-gap: 3rem;
+}
+main .courses .box{
+    /* width: 60%; */
+    height: 40vh;
+    background-color: var(--light-gray);
+}
+main .courses .box .image{
+    width:100%;
+    height: 25vh;
+    background-image: url("/course1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .courses .box h2 {
+    color: var(--offf-white);
+    width:60%;
+    padding: 1rem 0 0;
+    margin: auto;
+    font-size: 1.5rem;
+}
+main .courses .box p {
+    color: var(--offf-white);
+    font-size: 0.9rem;
+    width: 80%;
+    margin: auto;
 }

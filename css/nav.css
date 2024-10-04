@@ -1,180 +1,94 @@
 header{
     width: 100%;
-    height: 10vh;
-    height: auto;
-    background-color: var(--light-gray);
-    display: flex;
-    align-items: center;
-    color: var(--white);
-    font-size: 1.2rem;
+    background-color: black;
+    color: aliceblue;
 }
-header nav{
+
+header .nav{
     width: 100%;
+    padding: 0 5%;
+}
+
+header .nav,
+header .nav .nav-links {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    
 }
 
-header nav .heading {
-    font-size: 1.75rem;
-    margin: 1rem 0;
-}
-header .heading span{
-    color: var(--primary-green);
-}
-
-header nav .pages {
-    width: 40%;
-    font-weight: 300;
-    font-size: 1.25rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-header nav .pages a{
-    color: var(--white);
+header .nav > a,
+header .nav ul li a{
+    font-size: 2.7rem;
+    margin: 1.1rem;
+    font-weight: 700;
     text-decoration: none;
-    font-size: 1.3rem;
+    color: aliceblue
+}
+header .nav a span{
+    color: green;
 }
 
-
-
-/* header nav .pages a::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background-color: var(--primary-green);
-    transform-origin: center;
-    transform: translate(-50%, 0) scaleX(0);
-    transition: transform 0.3s ease-in-out;
+header .nav ul li{
+    list-style-type: none;
 }
-
-header nav .pages a:hover::before {
-    transform: translate(-50%, 0) scaleX(1);
-} */
-
-
-
-
-header .new-page {
-    width: 6%;
+header .nav ul li a{
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 400;
+}
+
+
+
+header .nav > i{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+header .nav > i:hover{
+    color: green;
+}
+
+
+
+
+
+
+/* search box  */
+.nav .search-box {
+    position: absolute;
+    top: 2%;
+    left: 25%;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 3.5rem;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-header .new-page i{
-    font-size: 1.8rem;
-    color: var(--primary-green);
+    
+    
+    /* opacity: 0; */
+    /* pointer-events: none; */
     display: none;
 }
-
-header .new-page i:hover{
-    transition: 0.3s ease;
-    cursor: pointer ;
+.nav.openSearch .search-box {
+    /* opacity: 1; */
+    /* pointer-events: auto; */
+    display:inline-flex
+    
 }
 
-
-
-
-header .new-page a{
-    position: relative;
+.nav .search-box i {
+    font-size: 2rem;
+    padding: 0 0 0 1rem;
+    color: green;
 }
-header .new-page a::before,   header .new-page a::after {
-    content: '';
-    position: absolute;
-    left: 50%;
+
+.nav .search-box input {
     width: 100%;
-    height: 2px;
-    background-color: var(--primary-green);
-    transform-origin: center;
-    transform: translateX(-50%) scaleX(0);
-    transition: transform 0.4s ease;
-}
-header .new-page a::before {
-    top: 0;
-} 
-header .new-page a::after {
-    bottom: 0;
-}
-header .new-page a:hover::before,   header .new-page a:hover::after {
-    transform: translateX(-50%) scaleX(1);
-}
-
-
-
-
-/* media queries    */
-@media (max-width: 1400px) {
-    header {
-        background-color: rgb(40, 40, 40);
-    }
-    header nav{
-        flex-direction: column;
-    
-    }
-    header nav .pages {
-        width: 100%;
-        background-color: var(--light-gray);
-        background-color: rgb(35, 35, 35);
-        border-top: 0.1rem solid var(--white);
-        border-bottom: 0.1rem solid var(--white);
-        justify-content: space-evenly;
-    }
-    header nav .pages a{
-        margin: 0.35rem 0;
-        font-size: 1.2rem;
-    }
-    
-}
-
-
-@media (max-width: 1000px) {
-    header nav .heading{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-    }
-    header {
-        background-color: rgb(40, 40, 40);
-    }
-    header nav{
-        flex-direction: column;
-    }
-    header nav .pages {
-        width: 100%;
-        background-color: var(--light-gray);
-        background-color: rgb(35, 35, 35);
-        border-top: 0.1rem solid var(--white);
-        border-bottom: 0.1rem solid var(--white);
-        justify-content: space-evenly;
-        flex-direction: column;
-        padding: 0.3rem 0 0.3rem;
-        clip-path: polygon(0 0 , 100% 0, 100% 0, 0, 0);
-    }
-    header nav .pages a{
-        display: block;
-        margin: 0.3rem 1rem;
-        font-size: 1.15rem;
-    }
-
-    header nav .new-page .fa-bars{
-        display: none;
-    }
-    header nav .new-page .fa-xmark{
-        display: block;
-    }
-    header nav .new-page .fa-xmark:active{
-        transform: rotate(180deg);
-
-    }
-        
+    height: 100%;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
 }

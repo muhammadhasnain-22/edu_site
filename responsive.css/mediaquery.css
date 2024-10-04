@@ -1,0 +1,13 @@
+@media (max-width: 1000px) and (min-width: 800px){
+    header nav .heading{
+        font-size: 1.2rem;
+}
+}
+
+@media (max-width: 790px) and (min-width: 500px){
+    header nav .heading{
+        font-size: 0.8rem;
+    }
+}
+
+

@@ -1,22 +1,20 @@
-
-/* the styling about why choose us  */
+/* about     */
 
 /* why we   */
 
 main .whywe {
     width: 90%;
-    height: 90vh;
     margin: auto;
-    padding: 5% 0 0;
+    padding: 6% 0 0;
     background-color: var(--dark-gray);
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5rem;
-    /* z-index: -2; */
 }
 
 main .whywe .left{
     width: 100%;
+    padding: 20% 5%;
     border-radius: 2rem;
     display: flex;
     justify-content: center;
@@ -25,12 +23,13 @@ main .whywe .left{
 }
 main .whywe .left .image{
     width: 80%;
-    height: 70%;
+    height: 100%;
     background-image: url("/whywe.png");
     background-size: contain;
     background-repeat: no-repeat;   
 }
 main .whywe .right{
+    padding: 20% 1%;
     background-color: var(--dark-gray);
     background-color: var(--light-gray);
     border-radius: 2rem;
@@ -40,25 +39,24 @@ main .whywe .right{
 }
 
 main .whywe .right h2 {
-    width: 50%;
     display: flex;
     align-self: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--primary-green);
 }
 
 main .whywe .right p {
     color: var(--white);
     font-size: 1rem;
-    margin: 2rem 10rem;
+    font-size: 1.2rem;
+    margin: 2rem 7rem;
     color: var(--offf-white);
-    text-align: center;
+    text-align: justify;
     line-height: auto;
 }
 
 
 main .whywe .right button {
-    /* width: 15%; */
     border-radius: 2rem;
     outline: none;
     border: none;
@@ -76,4 +74,67 @@ main .whywe .right button:hover {
 main .whywe .right button:active {
     transform: scale(0.95);
     color: rgb(40, 40, 40);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width: 1400px) { 
+    
+    main .whywe {
+        width: 94%;
+    }
+    
+    main .whywe .right h2 {
+        font-size: 2.6rem;   
+    }
+    
+    main .whywe .right p {
+        font-size: 1.1rem;
+        margin: 2rem 6rem;
+    }
+    
+    main .whywe .right button {
+        font-size: 1rem;
+    }
+    
+    main .whywe .left{
+        padding: 14% 5%;
+    }
+
+    main .whywe .right{
+        padding: 14% 1%;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    main .whywe {
+        width: 93%;
+        padding: 12.5% 0 0;
+    }
+
+
+    main .whywe .right h2 {
+        font-size: 2rem;   
+    }
+    
+    main .whywe .right p {
+        margin: 1rem 2rem;
+        font-size: 0.9rem;
+
+    }
+    
+    main .whywe .right button {
+        font-size: 1rem;
+    }
 }

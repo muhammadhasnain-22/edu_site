@@ -6,7 +6,7 @@ main .whywe {
     width: 90%;
     margin: auto;
     padding: 6% 0 0;
-    background-color: var(--dark-gray);
+    background-color: var(--light-gray);
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5rem;
@@ -19,7 +19,7 @@ main .whywe .left{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--light-gray);
+    background-color: var(--dark-gray);
 }
 main .whywe .left .image{
     width: 80%;
@@ -31,7 +31,7 @@ main .whywe .left .image{
 main .whywe .right{
     padding: 20% 1%;
     background-color: var(--dark-gray);
-    background-color: var(--light-gray);
+    /* background-color: var(--light-gray); */
     border-radius: 2rem;
     display: flex;
     flex-direction: column;

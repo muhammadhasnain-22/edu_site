@@ -1,38 +1,123 @@
+.courses{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-/* this is about courses  */
+.courses h2{
+    color: #fff;
+    font-size: 4rem;
+    margin: 3rem 0;
 
-main .courses {
+}
+.courses h2 span{
+    color: var(--primary-green);
+}
+
+
+.courses .swiper{
     width: 90%;
-    margin: auto;
-    padding-top: 5%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 5rem;
-    row-gap: 3rem;
 }
-main .courses .box{
-    /* width: 60%; */
-    height: 40vh;
-    background-color: var(--light-gray);
+
+
+
+
+
+
+.box {
+    width: 35rem;
+    background-color: rgb(65, 65, 65);
+    margin-bottom: 3rem;
+    color: aliceblue;
 }
-main .courses .box .image{
+
+.box .image{
     width:100%;
-    height: 25vh;
-    background-image: url("/course1.jpg");
-    background-size: cover;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .image .img{
+    width: 70%;
+    height: 90%;
+    background-image: url("/course.images/course1.jpg");
+    background-size: contain;
     background-repeat: no-repeat;
 }
-main .courses .box h2 {
-    color: var(--offf-white);
-    width:60%;
-    padding: 1rem 0 0;
-    margin: auto;
-    font-size: 1.5rem;
+
+.box h2{
+    margin: 0 2rem 1rem;
+    font-size: 1.3rem;
+    padding: 1%;
+    border-radius: 4rem;
+    background-color: var(--light-gray);
 }
-main .courses .box p {
-    color: var(--offf-white);
-    font-size: 0.9rem;
+.box p{
+    font-size: 1rem;
+    margin: 0 1rem 1rem;
+}
+
+.box:hover h2{
+    color: var(--dark-gray);
+    background-color: #ebeaea;
+}
+
+
+
+
+
+swiper-container {
     width: 80%;
     margin: auto;
 }
+
+swiper-slide {
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* images     */
+
+/* 1 */
+.box .graphic-designing .img{
+    background-image: url("/course.images/designing.png");
+}
+/* 2 */
+.box .digital-marketing .img {
+    background-image: url("/course.images/digitalmarketing.png");
+}
+/* 3 */
+.box .content-writing .img{
+    background-image: url("/course.images/contentwriting.png");
+}
+/* 4 */
+.box .freelancing .img{
+    background-image: url("/course.images/freelancing.png");
+}
+/* 5 */
+.box .photo-editing .img{
+    background-image: url("/course.images/photoediting.png");
+}
+/* 6 */
+.box .video-editing .img{
+    background-image: url("/course.images/videoediting.png");
+}
+/* 7 */
+.box .motion-graphics .img{
+    background-image: url("/course.images/motiongraphics.png");
+}
+/* 8 */
+.box .wordpress .img{
+    background-image: url("/course.images/wordpress.png");
+}
+/* 9 */
+.box .blogging .img{
+    background-image: url("/course.images/blogging.png");
+}
+

@@ -22,8 +22,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
-    <!-- <script src="/script.js"></script> -->
-
+    <!-- swiper js css link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
 <body>
@@ -35,7 +35,10 @@
                 <a href="edu-site"><span>EDU</span>-site</a>
                 
                 <ul class="nav-links navLink">
-                    <li><i class="fa-solid fa-xmark closeBtn"></i></li>
+                    <li>
+                        <!-- <i class="fa-solid fa-xmark closeBtn"></i> -->
+                        <i class="fa-solid fa-circle-xmark fa-xmark closeBtn"></i>
+                    </li>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#courses">Courses</a></li>
@@ -109,7 +112,7 @@
                 </div>
             </div>
         </section>
-
+<!-- about page starts here    -->
         <section class="whywe" id="about">
             <div class="left">
                 <div class="image"></div>
@@ -125,62 +128,161 @@
             </div>
         </section>
 
+
+<!-- section about courses atarts here       -->
         <section class="courses" id="courses">
 
-            <div class="designing box">
-                <div class="image"></div>
-                <h2>Graphic Designing</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                </p>
+            <h2 class="heading">
+                Our <span> Courses</span>
+            </h2>
+
+
+
+            <div class="course-slider swiper">
+
+                <div class="cousre-boxes container swiper-wrapper">
+                    
+                    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+                    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+
+                    <swiper-slide>
+                        <!-- Slide 1 -->
+                        <div class="box slide">
+                            <div class="image graphic-designing">
+                                <div class="img"></div>
+                            </div>
+                            <h2>Graphic Designing</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                            </p>                   
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <!-- Slide 2 -->
+                        <div class="box slide">
+                            <div class="image digital-marketing">
+                                <div class="img"></div>
+                            </div>
+                            <h2>Digital Marketing</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                            </p>                   
+                        </div>
+                    </swiper-slide>
+                    
+                    <swiper-slide>
+                        <!-- Slide 3 -->
+                        <div class="box slide">
+                            <div class="image content-writing">
+                                <div class="img"></div>
+                            </div>
+                            <h2>Content Writing</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                            </p>                   
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <!-- Slide 4 -->
+                        <div class="box slide">
+                            <div class="image freelancing">
+                                <div class="img"></div>
+                            </div>
+                            <h2>Freelancing</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                            </p>                   
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <!-- Slide 5 -->
+                        <div class="box slide">
+                            <div class="image photo-editing">
+                                <div class="img"></div>
+                            </div>
+                            <h2>Photo Editing</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                            </p>                   
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <!-- Slide 6 -->
+                        <div class="box slide">
+                            <div class="image video-editing">
+                                <div class="img"></div>
+                            </div>
+                            <h2>Video Editing</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                            </p>                   
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <!-- Slide 7 -->
+                        <div class="box slide">
+                            <div class="image motion-graphics">
+                                <div class="img"></div>
+                            </div>
+                            <h2>Motion Graphics</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                            </p>                   
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <!-- Slide 8 -->
+                        <div class="box slide">
+                            <div class="image wordpress">
+                                <div class="img"></div>
+                            </div>
+                            <h2>Wordpress</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                            </p>                   
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <!-- Slide 9 -->
+                        <div class="box slide">
+                            <div class="image blogging">
+                                <div class="img"></div>
+                            </div>
+                            <h2>Blogging</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                            </p>                   
+                        </div>
+                    </swiper-slide>
+                  </swiper-container>
+                  
+                  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+                
+
+                  <!--                  
+                  <div class="engineering box slide">
+                      <div class="image"></div>
+                      <h2>Graphic Designing</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
+                      </p>
+                  </div> -->
+                    
+                </div>
+
             </div>
             
-            <div class="wordpress box">
-                <div class="image"></div>
-                <h2>Graphic Designing</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                </p>
-            </div>
-            <div class="programming box">
-                <div class="image"></div>
-                <h2>Graphic Designing</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                </p>
-                
-            </div>
-            <div class="content box">
-                <div class="image"></div>
-                <h2>Graphic Designing</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                </p>
-                
-            </div>
-            <div class="teaching box">
-                <div class="image"></div>
-                <h2>Graphic Designing</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                </p>
-                
-            </div>
-            <div class="engineering box">
-                <div class="image"></div>
-                <h2>Graphic Designing</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                </p>
-                
-            </div>
         </section>
         
     </main>
 
 
 
+    <!-- swiper js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    
     <script src="/script.js"></script>
 </body>
 </html>

@@ -1,268 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EDU-site</title>
 
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/home.css">
-    <link rel="stylesheet" href="/css/courses.css">
-    <link rel="stylesheet" href="/css/about.css">
-    <link rel="stylesheet" href="/css/about.css">
-    <link rel="stylesheet" href="/css/teachers.css">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/css/courses.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/teachers.css" />
 
+    <link rel="stylesheet" media="screen and max-width" href="mediaquery.css" />
 
-    <link rel="stylesheet" media="screen and max-width" href="mediaquery.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- swiper js css link  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <!-- header of this website starts here  -->
     <header>
- 
-            <nav class="nav">
+      <nav class="nav">
+        <a href="edu-site"><span>EDU</span>-site</a>
 
-                <a href="edu-site"><span>EDU</span>-site</a>
-                
-                <ul class="nav-links navLink">
-                    <li>
-                        <!-- <i class="fa-solid fa-xmark closeBtn"></i> -->
-                        <i class="fa-solid fa-circle-xmark fa-xmark closeBtn"></i>
-                    </li>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#courses">Courses</a></li>
-                    <li><a href="#teachers">Teachers</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#contact">Contact us</a></li>
-                </ul>
+        <ul class="nav-links navLink">
+          <li>
+            <!-- <i class="fa-solid fa-xmark closeBtn"></i> -->
+            <i class="fa-solid fa-circle-xmark fa-xmark closeBtn"></i>
+          </li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#teachers">Teachers</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
 
-                <i class="fa-solid fa-magnifying-glass search-icon" id="searchIcon" ></i>
-                <i class="fa-solid fa-bars openBtn"></i>
+        <i class="fa-solid fa-magnifying-glass search-icon" id="searchIcon"></i>
+        <i class="fa-solid fa-bars openBtn"></i>
 
-                <div class="search-box">
-                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                    <input type="text" placeholder="search here">
-                </div>
-            </nav>
-
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" placeholder="search here" />
+        </div>
+      </nav>
     </header>
-
-
 
     <!-- header of this website ends here  -->
 
     <main>
-        <section class="home-page" id="home">
+      <section class="home-page" id="home">
+        <div class="upper">
+          <div class="title">
+            <h2>Online <span>Education</span></h2>
+            <button type="button">Join Us</button>
+          </div>
 
-            <div class="upper">
+          <div class="home-image">
+            <div class="image"></div>
+          </div>
+        </div>
 
-                <div class="title">
-                    <h2>Online <span>Education</span></h2>
-                    <button type="button">
-                        Join Us
-                    </button>
+        <div class="info-boxes">
+          <div class="course info-box">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h2>160+</h2>
+            <p>Courses</p>
+          </div>
+          <div class="students info-box">
+            <i class="fa-solid fa-user-graduate"></i>
+            <h2>1.8k+</h2>
+            <p>Students</p>
+          </div>
+          <div class="teachers info-box">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h2>160+</h2>
+            <p>Teachers</p>
+          </div>
+          <div class="satisfaction info-box">
+            <i class="fa-solid fa-face-smile"></i>
+            <h2>99%</h2>
+            <p>Satisfaction</p>
+          </div>
+        </div>
+      </section>
+      <!-- about page starts here    -->
+      <section class="whywe" id="about">
+        <div class="left">
+          <div class="image"></div>
+        </div>
+        <div class="right">
+          <h2>Why Choose US?</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
+            suscipit animi natus incidunt commodi, quod aliquam? Nulla nostrum
+            expedita vel amet illo consequatur consectetur? Dolorem consectetur,
+            rem aperiam recusandae corrupti et iste facere eligendi sequi
+            veritatis fuga doloribus assumenda excepturi rerum explicabo porro
+            sed voluptatum ratione totam soluta. Unde sapiente non nostrum
+            laudantium provident? Aspernatur soluta quidem accusamus ullam,
+            voluptatem vel, eum provident reiciendis, consectetur ipsa iure!
+            Modi, doloribus vero.
+          </p>
+          <button type="button">Contact Us</button>
+        </div>
+      </section>
+
+      <!-- section about courses atarts here       -->
+      <section class="courses" id="courses">
+        <h2 class="heading">Our <span> Courses</span></h2>
+
+        <div class="course-slider swiper">
+          <div class="cousre-boxes container swiper-wrapper">
+            <swiper-container
+              class="mySwiper"
+              pagination="true"
+              pagination-clickable="true"
+              navigation="true"
+              space-between="30"
+              centered-slides="true"
+              autoplay-delay="2500"
+              autoplay-disable-on-interaction="false"
+            >
+              <swiper-slide>
+                <!-- Slide 1 -->
+                <div class="box slide">
+                  <div class="image graphic-designing">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Graphic Designing</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus sed asperiores temporibus?
+                  </p>
                 </div>
+              </swiper-slide>
 
-                <div class="home-image">
-                    <div class="image"></div>
+              <swiper-slide>
+                <!-- Slide 2 -->
+                <div class="box slide">
+                  <div class="image digital-marketing">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Digital Marketing</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus sed asperiores temporibus?
+                  </p>
                 </div>
+              </swiper-slide>
 
-            </div>
-            
-            
-            <div class="info-boxes">
-                <div class="course info-box">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <h2>160+</h2>
-                    <p>
-                        Courses
-                    </p>
+              <swiper-slide>
+                <!-- Slide 3 -->
+                <div class="box slide">
+                  <div class="image content-writing">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Content Writing</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus sed asperiores temporibus?
+                  </p>
                 </div>
-                <div class="students info-box">
-                    <i class="fa-solid fa-user-graduate"></i>
-                    <h2>1.8k+</h2>
-                    <p>
-                        Students
-                    </p>
+              </swiper-slide>
+              <swiper-slide>
+                <!-- Slide 4 -->
+                <div class="box slide">
+                  <div class="image freelancing">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Freelancing</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus sed asperiores temporibus?
+                  </p>
                 </div>
-                <div class="teachers info-box">
-                    <i class="fa-solid fa-chalkboard-user"></i>
-                    <h2>160+</h2>
-                    <p>
-                        Teachers
-                    </p>
+              </swiper-slide>
+              <swiper-slide>
+                <!-- Slide 5 -->
+                <div class="box slide">
+                  <div class="image photo-editing">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Photo Editing</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus sed asperiores temporibus?
+                  </p>
                 </div>
-                <div class="satisfaction info-box">
-                    <i class="fa-solid fa-face-smile"></i>
-                    <h2>99%</h2>
-                    <p>
-                        Satisfaction
-                    </p>
+              </swiper-slide>
+              <swiper-slide>
+                <!-- Slide 6 -->
+                <div class="box slide">
+                  <div class="image video-editing">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Video Editing</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus sed asperiores temporibus?
+                  </p>
                 </div>
-            </div>
-        </section>
-<!-- about page starts here    -->
-        <section class="whywe" id="about">
-            <div class="left">
-                <div class="image"></div>
-            </div>
-            <div class="right">
-                <h2>Why Choose US?</h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro suscipit animi natus incidunt commodi, quod aliquam? Nulla nostrum expedita vel amet illo consequatur consectetur? Dolorem consectetur, rem aperiam recusandae corrupti et iste facere eligendi sequi veritatis fuga doloribus assumenda excepturi rerum explicabo porro sed voluptatum ratione totam soluta. Unde sapiente non nostrum laudantium provident? Aspernatur soluta quidem accusamus ullam, voluptatem vel, eum provident reiciendis, consectetur ipsa iure! Modi, doloribus vero.
-                </p>
-                <button type="button">
-                    Contact Us
-                </button>
-            </div>
-        </section>
+              </swiper-slide>
+              <swiper-slide>
+                <!-- Slide 7 -->
+                <div class="box slide">
+                  <div class="image motion-graphics">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Motion Graphics</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus sed asperiores temporibus?
+                  </p>
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <!-- Slide 8 -->
+                <div class="box slide">
+                  <div class="image wordpress">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Wordpress</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus sed asperiores temporibus?
+                  </p>
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <!-- Slide 9 -->
+                <div class="box slide">
+                  <div class="image blogging">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Blogging</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus sed asperiores temporibus?
+                  </p>
+                </div>
+              </swiper-slide>
+            </swiper-container>
 
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
-<!-- section about courses atarts here       -->
-        <section class="courses" id="courses">
-
-            <h2 class="heading">
-                Our <span> Courses</span>
-            </h2>
-
-
-
-            <div class="course-slider swiper">
-
-                <div class="cousre-boxes container swiper-wrapper">
-                    
-                    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
-                    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
-
-                    <swiper-slide>
-                        <!-- Slide 1 -->
-                        <div class="box slide">
-                            <div class="image graphic-designing">
-                                <div class="img"></div>
-                            </div>
-                            <h2>Graphic Designing</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                            </p>                   
-                        </div>
-                    </swiper-slide>
-
-                    <swiper-slide>
-                        <!-- Slide 2 -->
-                        <div class="box slide">
-                            <div class="image digital-marketing">
-                                <div class="img"></div>
-                            </div>
-                            <h2>Digital Marketing</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                            </p>                   
-                        </div>
-                    </swiper-slide>
-                    
-                    <swiper-slide>
-                        <!-- Slide 3 -->
-                        <div class="box slide">
-                            <div class="image content-writing">
-                                <div class="img"></div>
-                            </div>
-                            <h2>Content Writing</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                            </p>                   
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <!-- Slide 4 -->
-                        <div class="box slide">
-                            <div class="image freelancing">
-                                <div class="img"></div>
-                            </div>
-                            <h2>Freelancing</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                            </p>                   
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <!-- Slide 5 -->
-                        <div class="box slide">
-                            <div class="image photo-editing">
-                                <div class="img"></div>
-                            </div>
-                            <h2>Photo Editing</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                            </p>                   
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <!-- Slide 6 -->
-                        <div class="box slide">
-                            <div class="image video-editing">
-                                <div class="img"></div>
-                            </div>
-                            <h2>Video Editing</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                            </p>                   
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <!-- Slide 7 -->
-                        <div class="box slide">
-                            <div class="image motion-graphics">
-                                <div class="img"></div>
-                            </div>
-                            <h2>Motion Graphics</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                            </p>                   
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <!-- Slide 8 -->
-                        <div class="box slide">
-                            <div class="image wordpress">
-                                <div class="img"></div>
-                            </div>
-                            <h2>Wordpress</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                            </p>                   
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <!-- Slide 9 -->
-                        <div class="box slide">
-                            <div class="image blogging">
-                                <div class="img"></div>
-                            </div>
-                            <h2>Blogging</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
-                            </p>                   
-                        </div>
-                    </swiper-slide>
-                  </swiper-container>
-                  
-                  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-                  
-                  
-                  <!--                  
+            <!--                  
                   <div class="engineering box slide">
                       <div class="image"></div>
                       <h2>Graphic Designing</h2>
@@ -270,62 +272,167 @@
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed asperiores temporibus?
                         </p>
                     </div> -->
-                    
+          </div>
+        </div>
+      </section>
+
+      <section class="mentors">
+        <h2 class="heading">Graceful <span> Mentors</span></h2>
+
+        <div class="swiper">
+          <swiper-wrapper>
+            <swiper-container
+              class="mySwiper"
+              pagination="true"
+              pagination-clickable="true"
+              navigation="true"
+              space-between="30"
+              centered-slides="true"
+              autoplay-delay="2500"
+              autoplay-disable-on-interaction="false"
+            >
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image john">
+                    <div class="img"></div>
+                  </div>
+                  <h2>John Wick</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image sam">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Sam Fredrick</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image cardinal">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Cardinal</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image loius">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Loius Pasture</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image romano">
+                    <div class="img"></div>
+                  </div>
+                  <h2>J.S Romano</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image mia">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Mia Savinz</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
+                </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image dzin">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Dizin Toger</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
+                </div>
+               </swiper-slide>
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image kamil">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Kamil Golgi</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
+                </div>
+               </swiper-slide>
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image thomas">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Thomas Stenle</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
                 </div>
 
-            </div>
-        </section>
-
-        <section class="teachers">
-
-                <h2 class="heading">Our <span>Teachers</span></h2>
-
-                <div class="container">
-                    
+              </swiper-slide>
+              <swiper-slide>
+                <div class="mentor slide">
+                  <div class="image richard">
+                    <div class="img"></div>
+                  </div>
+                  <h2>Richard Michael</h2>
+                  <div class="share">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </div>
                 </div>
+                 </swiper-slide>
+            </swiper-container>
+          </swiper-wrapper>
 
-        </section>
-        
-
-        <section class="mentors">
-            <h2 class="heading">
-                Graceful <span> Mentors</span> 
-            </h2>
-            
-            <div class="swiper">
-
-                <awiper-wrapper>
-
-                    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
-                    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
-                    
-                    <swiper-slide> one </swiper-slide>
-                    <swiper-slide> two </swiper-slide>
-                    <swiper-slide> three </swiper-slide>
-                    <swiper-slide> four </swiper-slide>
-                    <swiper-slide> one </swiper-slide>
-                    <swiper-slide> one </swiper-slide>
-                    <swiper-slide> one </swiper-slide>
-                    <swiper-slide> one </swiper-slide>
-                    <swiper-slide> one </swiper-slide>
-                    <swiper-slide> one </swiper-slide>
-                    <swiper-slide> one </swiper-slide>
-                    
-                </swiper-container>
-                </awiper-wrapper>
-                
-                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-
-            </div>
-        </section>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        </div>
+      </section>
     </main>
-
-    
 
     <!-- swiper js link  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>

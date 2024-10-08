@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.mentors h2{
+.mentors > h2{
     color: #fff;
     font-size: 4rem;
     margin: 3rem 0;
@@ -17,46 +17,167 @@
 }
 
 
-.mentors .swiper swiper-container {
-    background-color: #fff;
-}
-
-.mentors swiper-slide {
-    width: 20rem;
-    height: 20rem;
-    background-color: #fff0;
-    margin: 0 0 4rem;
-}
+/* .mentors .swiper swiper-container { */
+    /* background-color: #fff; */
+/* } */
 
 
-
-
-
-
-
-
-
-.mentors .swiper{
-    width: 90%;
-}
-
-.mentors .swiper swiper-container {
-    width: 100%;
-    /* margin: 0 0 5rem; */
-    /* padding: 0 0 5rem; */
-}
-
-swiper-container {
+.mentors .swiper {
     width: 80%;
     margin: auto;
 }
 
-swiper-slide {
-    text-align: center;
+.mentors .swiper swiper-wrapper {
+    width: 100%;
+    
+}
+
+.mentors .swiper swiper-wrapper swiper-continer {
+    width: 100%;
+}
+
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide {
+    width: 18rem;
+    height: 30rem;
+    /* background-color: rgba(103, 102, 102); */
+    margin: 0 0 4rem;
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide {
+    width: 25rem;
+    height: 30rem;
+    /* background-color: rgb(90, 90, 90); */
+    
+}
+
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide h2{
+    font-size: 1.8rem;
+    margin-top: 5%;
+    padding: 1%;
+    background-color: rgb(252, 252, 243);
+    border-radius: 5rem;
+    transform: scale(0.9);
+    
+}
+
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide:hover h2{
+    transform: scale(0.95);
+}
+
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .share {
+    position: relative;
+    bottom: 75%;
+    left: 12rem;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .share i {
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    /* color: green; */
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    margin: 0.3rem;
+    opacity: 0;
+    transform: translateX(6rem);
+}
+
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide:hover .share i {
+    opacity: 1;
+    transform: translateX(2rem);
 }
 
 
 
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .image {
+    width:100%;
+    height: 25rem;
+}
+
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .image .img {
+    width:100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url("/mentors/one.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+
+
+
+
+
+
+
+
+/* images   */
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .john .img {
+background-image: url("/mentors/one.png");
+background-size: cover;
+
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .sam .img {
+background-image: url("/mentors/two.png");
+background-size: cover;
+
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .cardinal .img {
+background-image: url("/mentors/three.png");
+background-size: cover;
+
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .loius .img {
+background-image: url("/mentors/four.png");
+background-size: cover;
+
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .romano .img {
+background-image: url("/mentors/five.png");
+background-size: cover;
+
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .mia .img {
+background-image: url("/mentors/six.png");
+background-size: cover;
+
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .dzin .img {
+background-image: url("/mentors/four.png");
+background-size: cover;
+
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .kamil .img {
+background-image: url("/mentors/three.png");
+background-size: cover;
+
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .thomas .img {
+background-image: url("/mentors/one.png");
+background-size: cover;
+
+}
+
+.mentors .swiper swiper-wrapper swiper-container swiper-slide .slide .richard .img {
+background-image: url("/mentors/three.png");
+background-size: cover;
+
+}

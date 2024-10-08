@@ -81,12 +81,12 @@
     font-size: 1.5rem;
     background-color: white;
     color: black;
-    /* color: green; */
     padding: 0.6rem;
     border-radius: 0.3rem;
     margin: 0.3rem;
     opacity: 0;
-    transform: translateX(6rem);
+    /* transform: rotate(50deg); */
+    transform: rotate(20deg) translateX(6rem);
 }
 
 

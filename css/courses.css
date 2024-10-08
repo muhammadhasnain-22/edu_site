@@ -66,11 +66,12 @@
 }
 
 
-swiper-container {
+
+
+.courses swiper-container {
     width: 80%;
     margin: auto;
 }
-
 
 swiper-slide {
     text-align: center;

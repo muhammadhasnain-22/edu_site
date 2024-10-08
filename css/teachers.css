@@ -1,0 +1,62 @@
+.mentors {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mentors h2{
+    color: #fff;
+    font-size: 4rem;
+    margin: 3rem 0;
+
+}
+
+.mentors h2 span{
+    color: var(--primary-green);
+}
+
+
+.mentors .swiper swiper-container {
+    background-color: #fff;
+}
+
+.mentors swiper-slide {
+    width: 20rem;
+    height: 20rem;
+    background-color: #fff0;
+    margin: 0 0 4rem;
+}
+
+
+
+
+
+
+
+
+
+.mentors .swiper{
+    width: 90%;
+}
+
+.mentors .swiper swiper-container {
+    width: 100%;
+    /* margin: 0 0 5rem; */
+    /* padding: 0 0 5rem; */
+}
+
+swiper-container {
+    width: 80%;
+    margin: auto;
+}
+
+swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

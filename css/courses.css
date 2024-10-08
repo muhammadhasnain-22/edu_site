@@ -69,12 +69,12 @@
 
 
 
-swiper-container {
+.courses swiper-container {
     width: 80%;
     margin: auto;
 }
 
-swiper-slide {
+.courses swiper-slide {
     text-align: center;
     display: flex;
   justify-content: center;

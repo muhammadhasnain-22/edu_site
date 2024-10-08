@@ -66,21 +66,27 @@
 }
 
 
-
-
-
 swiper-container {
     width: 80%;
     margin: auto;
 }
 
+
 swiper-slide {
     text-align: center;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--primary-green);
+}
 
 /* images     */
 
@@ -120,4 +126,3 @@ swiper-slide {
 .box .blogging .img{
     background-image: url("/course.images/blogging.png");
 }
-
